@@ -2,22 +2,22 @@ import javax.swing.*;
 
 public class Büchershop_Verkauf extends JFrame{
     private JPanel kaufPanel;
-    private JButton speichernButton;
     private JScrollPane ausgabenliste;
-    private JTextField author;
-    private JButton ausgebenButton;
-    private JTextField titel;
-    private JTextField preis;
+    private JComboBox comboBox2;
+    private JLabel Icon;
     private JTextField seitenzahl;
     private JComboBox genreauswahl;
-    private JComboBox comboBox2;
+    private JTextField preis;
+    private JTextField textField1;
+    private JTextField author;
     private JButton filterButton;
-    private JButton berechneButton;
+    private JButton preisButton;
+    private JButton hinzufügenButton;
 
     public Büchershop_Verkauf() {
         setTitle("Bücher Shop");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(600,500);
+        setSize(800,500);
         setContentPane(kaufPanel);
         setVisible(true);
     }
