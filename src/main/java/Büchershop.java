@@ -11,6 +11,7 @@ public class Büchershop extends JFrame {
 
     public Büchershop() {
         setTitle("Willkommen im Büchershop");
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(800, 200);
         setContentPane(mainPanel);
         setVisible(true);
