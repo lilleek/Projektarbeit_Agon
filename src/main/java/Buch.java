@@ -23,4 +23,19 @@ public class Buch {
                 ", Seitenanzahl=" + Seitenanzahl +
                 '}';
     }
+    public String getTitel(){
+        return Titel;
+    }
+    public String getGenre(){
+        return Genre;
+    }
+    public String getAutor(){
+        return Autor;
+    }
+    public double getPreis(){
+        return Preis;
+    }
+    public int getSeitenanzahl(){
+        return Seitenanzahl;
+    }
 }
