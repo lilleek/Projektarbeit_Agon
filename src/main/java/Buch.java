@@ -13,6 +13,9 @@ public class Buch {
         Seitenanzahl = seitenanzahl;
     }
 
+    public static void addElement(Buch opeinilMeriva) {
+    }
+
     @Override
     public String toString() {
         return "Buch{" +

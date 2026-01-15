@@ -27,17 +27,6 @@
             <border type="none"/>
             <children/>
           </scrollpane>
-          <component id="3d1c3" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
-            <constraints>
-              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties/>
-          </component>
-          <hspacer id="ffd24">
-            <constraints>
-              <grid row="8" column="11" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-          </hspacer>
           <component id="399ee" class="javax.swing.JLabel" binding="Icon">
             <constraints>
               <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -161,14 +150,6 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
           </hspacer>
-          <component id="26440" class="javax.swing.JButton" binding="preisButton" default-binding="true">
-            <constraints>
-              <grid row="8" column="5" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-            </constraints>
-            <properties>
-              <text value="Preis"/>
-            </properties>
-          </component>
           <hspacer id="ad2cd">
             <constraints>
               <grid row="1" column="2" row-span="1" col-span="6" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -190,6 +171,14 @@
             </constraints>
             <properties>
               <text value="Hinzufügen"/>
+            </properties>
+          </component>
+          <component id="26440" class="javax.swing.JButton" binding="verkaufenButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="11" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Verkaufen"/>
             </properties>
           </component>
         </children>
