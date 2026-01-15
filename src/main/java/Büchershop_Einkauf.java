@@ -1,6 +1,4 @@
 import javax.swing.*;
-import java.awt.event.ActionListener;
-import java.awt.event.ActionEvent;
 import java.util.ArrayList;
 
 public class Büchershop_Einkauf extends JFrame {
@@ -50,19 +48,13 @@ public class Büchershop_Einkauf extends JFrame {
         Buch Vorlage2 = new Buch("Fight CLub", "Thriller", "Chuck Palahniuk", 13, 432);
         Buch Vorlage3 = new Buch("Der Prozess", "Fachbuch", "Franz Kafka", 21, 376);
 
-        ausgabenliste.add(Vorlage1);
-        ausgabenliste.add(Vorlage2);
-        ausgabenliste.add(Vorlage3);
+        Variante.addElement(Vorlage1);
+        Variante.addElement(Vorlage2);
+        Variante.addElement(Vorlage3);
 
-        Aktualisieren(ausgabenliste);
+
     }
 
 
-    private void Aktualisieren(ArrayList<Buch> daten) {
-        Variante.clear();
-        for (Buch Vorlage : daten) {
 
-            Variante.addElement(Vorlage);
-        }
     }
-}
