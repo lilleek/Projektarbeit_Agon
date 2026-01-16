@@ -29,9 +29,11 @@ Framework: Java Swing (erstellt mit dem Swing UI Designer)
 ## Ressourcen & Lizenzen
 Icons: Die verwendeten Icons stammen von [Icons8](https://icons8.de/) und werden unter der dort geltenden Lizenz genutzt.
 
-KI-Unterstützung: Der dispose();-Befehl sowie Teile der Logik wurden mit Unterstützung von [Gemini](https://gemini.google.com/app?hl=de) optimiert.
+KI-Unterstützung: Der dispose();-Befehl wurde mit Hilfe von Gemini [Gemini](https://gemini.google.com/app?hl=de) eingebaut 
 
 Readme: This site was built using [GitHub Pages](https://docs.github.com/de/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+Tutorial Hilfen: Diese Videos haben uns geholfen unsere Fehler zu verstehen. [JList](https://www.youtube.com/watch?v=w7xiY0fc6cs) und [Action Listener] (https://www.youtube.com/watch?v=ObVnyA8ar6Q&themeRefresh=1). 
 
 ## Kontakt
 Bei Problemen oder Fragen steht unser Team gerne zur Verfügung:
