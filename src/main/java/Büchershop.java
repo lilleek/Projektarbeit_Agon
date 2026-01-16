@@ -2,21 +2,21 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Büchershop extends JFrame {
+public class Büchershop extends JFrame { //Klasse Büchershop
     private JPanel mainPanel;
     private JPanel Willkommen;
     private JPanel Wilkommen;
     private JButton KaufenButton;
     private JButton verkaufenButton;
 
-    public Büchershop() {
+    public Büchershop() { //AnfangsFenster
         setTitle("Willkommen im Büchershop");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 200);
         setContentPane(mainPanel);
         setVisible(true);
 
-        KaufenButton.addActionListener(new ActionListener() {
+        KaufenButton.addActionListener(new ActionListener() { //Öffnet Klasse Büchershop_Einkauf und schließt Anfangsfenster
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
@@ -25,7 +25,7 @@ public class Büchershop extends JFrame {
         });
 
 
-        verkaufenButton.addActionListener(new ActionListener() {
+        verkaufenButton.addActionListener(new ActionListener() {//Öffnet Klasse Büchershop_Verkauf und schließt Anfangsfenster
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
@@ -37,5 +37,5 @@ public class Büchershop extends JFrame {
 
     static void main() {
         new Büchershop();
-    }
+    } //öffnet Fenster
 }

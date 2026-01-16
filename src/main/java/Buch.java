@@ -1,11 +1,11 @@
-public class Buch {
-    private String Titel;
+public class Buch { //Klasse Buch
+    private String Titel; //Attribute
     private String Genre;
     private String Autor;
     private double Preis;
     private int Seitenanzahl;
 
-    public Buch(String titel, String genre, String autor, int preis, int seitenanzahl) {
+    public Buch(String titel, String genre, String autor, int preis, int seitenanzahl) { //Konstrukto
         Titel = titel;
         Genre = genre;
         Autor = autor;
@@ -13,17 +13,10 @@ public class Buch {
         Seitenanzahl = seitenanzahl;
     }
 
-    public Buch(String titel, String autor, String seitenanzahl, String preis, String seitenanzahl1) {
-    }
 
-    public Buch(String titel, String autor, int seitenanzahl, String s, int seitenanzahl1) {
-    }
-
-    public static void addElement(Buch opeinilMeriva) {
-    }
 
     @Override
-    public String toString() {
+    public String toString() { //Ausgabe in der JList
         return "Dein Buch:" +
                  Titel + " | " +
                  Genre + " | " +
