@@ -5,12 +5,18 @@ public class Buch {
     private double Preis;
     private int Seitenanzahl;
 
-    public Buch(String titel, String genre, String autor, double preis, int seitenanzahl) {
+    public Buch(String titel, String genre, String autor, int preis, int seitenanzahl) {
         Titel = titel;
         Genre = genre;
         Autor = autor;
         Preis = preis;
         Seitenanzahl = seitenanzahl;
+    }
+
+    public Buch(String titel, String autor, String seitenanzahl, String preis, String seitenanzahl1) {
+    }
+
+    public Buch(String titel, String autor, int seitenanzahl, String s, int seitenanzahl1) {
     }
 
     public static void addElement(Buch opeinilMeriva) {

@@ -27,7 +27,7 @@
         <properties>
           <background color="-1"/>
           <foreground color="-1"/>
-          <text value="Author"/>
+          <text value="Autor"/>
         </properties>
       </component>
       <component id="addb6" class="javax.swing.JLabel">
@@ -72,7 +72,7 @@
           <text value="Seitenzahl"/>
         </properties>
       </component>
-      <component id="2fcc5" class="javax.swing.JTextField" binding="seitenzahl">
+      <component id="2fcc5" class="javax.swing.JTextField" binding="seitenanzahl_ausgabe">
         <constraints>
           <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -82,7 +82,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="71a8d" class="javax.swing.JComboBox" binding="genreauswahl">
+      <component id="71a8d" class="javax.swing.JComboBox" binding="genre_ausgabe">
         <constraints>
           <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -90,7 +90,7 @@
           <model/>
         </properties>
       </component>
-      <component id="2317f" class="javax.swing.JTextField" binding="preis">
+      <component id="2317f" class="javax.swing.JTextField" binding="preis_ausgabe">
         <constraints>
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -100,7 +100,7 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="ab3ba" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="ab3ba" class="javax.swing.JTextField" binding="titel_ausgabe">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -108,7 +108,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="65ad0" class="javax.swing.JTextField" binding="author">
+      <component id="65ad0" class="javax.swing.JTextField" binding="autor_ausgabe">
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -151,12 +151,12 @@
           <text value="Bücherregal"/>
         </properties>
       </component>
-      <component id="90cac" class="javax.swing.JButton" binding="ausgebenButton" default-binding="true">
+      <component id="90cac" class="javax.swing.JButton" binding="clearButton">
         <constraints>
           <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Ausgeben"/>
+          <text value="Clear"/>
         </properties>
       </component>
       <component id="5d926" class="javax.swing.JList" binding="ausgabenliste">

@@ -16,7 +16,7 @@ public class Büchershop_Verkauf extends JFrame{
     public Büchershop_Verkauf() {
         setTitle("Bücher Shop");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(800,500);
+        setSize(1000,500);
         setContentPane(kaufPanel);
         setVisible(true);
     }
