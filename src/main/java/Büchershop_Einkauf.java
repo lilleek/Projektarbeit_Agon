@@ -1,5 +1,6 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
+import java.util.ArrayList;
 
 public class Büchershop_Einkauf extends JFrame {
     private JButton clearButton;
@@ -13,6 +14,7 @@ public class Büchershop_Einkauf extends JFrame {
     protected JTextField seitenanzahl_ausgabe;
     protected JTextField preis_ausgabe;
     protected JComboBox genre_ausgabe;
+    protected JComboBox filtern;
 
     DefaultListModel<Buch> Variante = new DefaultListModel<>();
 
@@ -34,8 +36,18 @@ public class Büchershop_Einkauf extends JFrame {
         genre_ausgabe.addItem("Fachbücher");
         genre_ausgabe.addItem("Kinderbuch");
 
+        filtern.addItem("Fantasy");
+        filtern.addItem("Thriller");
+        filtern.addItem("Liebesroman");
+        filtern.addItem("Roman");
+        filtern.addItem("Biografie");
+        filtern.addItem("Ratgeber");
+        filtern.addItem("Fachbücher");
+        filtern.addItem("Kinderbuch");
+
         kaufenButton.addActionListener(this::kaufenButton);
         clearButton.addActionListener(this::clearButton);
+        filterButton.addActionListener(this::filterButton);
 
         initObjekte();
 
@@ -57,6 +69,24 @@ public class Büchershop_Einkauf extends JFrame {
 
 
     }
+    private void filterButton(ActionEvent e) {
+
+        String filter = (String) filtern.getSelectedItem();
+        DefaultListModel<Buch> gefiltert = new DefaultListModel<>();
+
+        ListModel<Buch> model = ausgabenliste.getModel();
+
+        for (int i = 0; i < model.getSize(); i++) {
+            Buch b = model.getElementAt(i);
+
+            if (b.getGenre().equalsIgnoreCase(filter)) {
+                gefiltert.addElement(b);
+            }
+        }
+
+        ausgabenliste.setModel(gefiltert);
+    }
+
 
     void clearButton(ActionEvent e){
         textloeschen(); }
