@@ -35,7 +35,3 @@ Readme: This site was built using [GitHub Pages](https://docs.github.com/de/get-
 
 Tutorial Hilfen: Diese Videos haben uns geholfen unsere Fehler zu verstehen. [JList](https://www.youtube.com/watch?v=w7xiY0fc6cs) und [Action Listener](https://www.youtube.com/watch?v=ObVnyA8ar6Q&themeRefresh=1). 
 
-## Kontakt
-Bei Problemen oder Fragen steht unser Team gerne zur Verfügung:
-
-Telefon: +49 157 36229720
