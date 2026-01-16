@@ -8,7 +8,6 @@ public class Büchershop extends JFrame {
     private JPanel Wilkommen;
     private JButton KaufenButton;
     private JButton verkaufenButton;
-    private JTextField Namensfeld;
 
     public Büchershop() {
         setTitle("Willkommen im Büchershop");

@@ -24,13 +24,12 @@ public class Buch {
 
     @Override
     public String toString() {
-        return "Buch{" +
-                "Titel='" + Titel + '\'' +
-                ", Genre='" + Genre + '\'' +
-                ", Autor='" + Autor + '\'' +
-                ", Preis=" + Preis +
-                ", Seitenanzahl=" + Seitenanzahl +
-                '}';
+        return "Dein Buch:" +
+                 Titel + " | " +
+                 Genre + " | " +
+                  Autor + " | " +
+                  Preis + " | "+
+                  Seitenanzahl;
     }
     public String getTitel(){
         return Titel;

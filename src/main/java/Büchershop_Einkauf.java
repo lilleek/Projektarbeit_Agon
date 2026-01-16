@@ -1,6 +1,5 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
-import java.util.ArrayList;
 
 public class Büchershop_Einkauf extends JFrame {
     private JButton clearButton;
